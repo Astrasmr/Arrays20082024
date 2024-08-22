@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
         int summ = 0;
-        int[] salaries = {100000, 120000, 150000, 170000, 200000, 210000};
+        int[] salaries = {100000, 120000, 150000, 170000, 200000};
         for (int i = 0; i < salaries.length; i++) {
             summ += salaries[i];
         }
@@ -10,7 +10,7 @@ public class Main {
 
 
         System.out.println( "Задача 2");
-        int[] salariesTwo = {190000, 120000, 150000, 170000, 200000, 210000};
+        int[] salariesTwo = {190000, 120000, 150000, 170000, 200000};
         int min = salariesTwo[0];
         int max = salariesTwo[0];
         for (int i = 0; i <salariesTwo.length; i++) {
@@ -27,7 +27,7 @@ public class Main {
 
         System.out.println( "Задача 3");
         int summThree = 0;
-        int[] salariesThree = {100000, 120000, 150000, 170000, 200000, 210000};
+        int[] salariesThree = {100000, 120000, 150000, 170000, 200000};
         for (int i = 0; i < salariesThree.length; i++) {
             summThree += salariesThree[i];
         }
